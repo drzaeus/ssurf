@@ -1,0 +1,19 @@
+{
+  "info": {
+    "name": "Institution"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "brief_description": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "institutions"
+}
